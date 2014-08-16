@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "install" : "node install.js"
+    "postinstall" : "node install.js"
   },
   "repository": {
     "type": "git",
