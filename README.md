@@ -1,7 +1,8 @@
 karma-jasmine-jquery
 ====================
 
-Jasmine-jquery plugin for Jasmine in Karma
+Jasmine-jquery plugin for Jasmine in Karma.
+
 It karma adapter for
 + https://github.com/velesin/jasmine-jquery
 
