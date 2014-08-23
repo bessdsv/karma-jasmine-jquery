@@ -9,6 +9,7 @@ Install the plugin from npm:
 
 ```sh
 $ npm install karma-jasmine-jquery
+```
 
 ## Attention
 karma-jasmine-jquery has a dependency on jasmine, so you should use `karma-jasmine` as well before `karma-jasmine-jquery`. Please note the followings.
