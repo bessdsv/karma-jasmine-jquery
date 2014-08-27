@@ -52,7 +52,7 @@ module.exports = function(config) {
 
 it('test1', function() {
     $().destroyWin('window'); // jquery 1.3.2
-    expect(jq2('#window')).not.toBeInDOM(); // jq2 = jquery 2.1.1
+    expect($j('#window')).not.toBeInDOM(); // $j = jquery 2.1.1
   });
 
 ```
