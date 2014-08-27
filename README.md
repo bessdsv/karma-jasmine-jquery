@@ -35,7 +35,7 @@ module.exports = function(config) {
 ## Information
 This plugin already includes jquery version 2.1.1, it is used for the plugin. 
 However, in the project, you can use a version of jquery (it can be both below and above) and they will not interfere with each other. 
-When writing tests using jquery $ for the project, and to use jquery 2.1.1, use a global variable jq2 (it makes sense when you want to use when writing test jquery 2 opportunities that are not available in the current version of jquery used in your project, as I). 
+When writing tests using jquery $ for the project, and to use jquery 2.1.1, use a global variable $j (it makes sense when you want to use when writing test jquery 2 opportunities that are not available in the current version of jquery used in your project, as I). 
 Example of use:
 
 ```js
