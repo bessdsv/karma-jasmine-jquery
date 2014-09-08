@@ -38,7 +38,7 @@
       ],
       "jquery": {
         "mapping": [
-          {"bower_components/jquery/dist/jquery.js": "jqueryForJasmineJqeryPlugin.js"}
+          {"bower_components/jquery/dist/jquery.js": "jqueryForJasmineJqueryPlugin.js"}
         ]
       }
     },
