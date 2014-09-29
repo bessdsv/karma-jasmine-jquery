@@ -17,6 +17,7 @@ $ npm install karma-jasmine-jquery
 ## Attention
 karma-jasmine-jquery has a dependency on jasmine, so you should use `karma-jasmine` as well before `karma-jasmine-jquery`. Please note the followings.
 + https://github.com/karma-runner/karma-jasmine
+This plugin will only work for version karma-jasmine 2.0 and above.
 
 ## Usage
 karma will autoload all plugins, whose name start with `karma-`, you can import karma-jasmine-jquery plugins manually. Please refer to http://karma-runner.github.io/0.12/config/plugins.htmt for more details. 
@@ -31,6 +32,8 @@ module.exports = function(config) {
    })
 }
 ```
+
+The order('jasmine-jquery','jasmine') is important since it affects the order in which the files will be included to karma. Right order - reverse as karma works on the principle of LIFO stack. 
 
 ## Information
 This plugin already includes jquery version 2.1.1, it is used for the plugin. 
