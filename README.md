@@ -17,6 +17,7 @@ $ npm install karma-jasmine-jquery
 ## Attention
 karma-jasmine-jquery has a dependency on jasmine, so you should use `karma-jasmine` as well before `karma-jasmine-jquery`. Please note the followings.
 + https://github.com/karma-runner/karma-jasmine
+
 This plugin will only work for version karma-jasmine 2.0 and above.
 
 ## Usage
