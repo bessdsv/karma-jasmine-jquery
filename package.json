@@ -27,7 +27,7 @@
     "url": "https://github.com/bessdsv/karma-jasmine-jquery/issues"
   },
   "homepage": "https://github.com/bessdsv/karma-jasmine-jquery",
-  "dependencies": {
+  "devDependencies": {
     "bower": "^1.3.9",
     "bower-installer": "git://github.com/bessdsv/bower-installer.git#temp"
   }
